@@ -12,7 +12,7 @@ To start, run the following commands.
     $ vi docker.conf
     $ cat docker.conf
     IMAGE_NAME=pwn-pf
-    VM_NAME=pwn3
+    VM_NAME=pwnpf
     TAG=3.1
     CTF_DATA_DIR=/opt/docker/pwnpf-data
     
@@ -21,6 +21,12 @@ To start, run the following commands.
     $ sh docker.sh build
     $ sh docker.sh run # docker run -v ${CTF_DATA_DIR}:/opt/ctf/data ...(snip)
     $ sh docker.sh status
+    
+    $ docker exec -it pwnpf bash
+    # cd /opt/ctf/tools/Zeratool
+    # python zeratool.py challenges/bof1
+    [+] Flag found:
+    flag{y0u_g0t_1t}
 
 Links
 --------
