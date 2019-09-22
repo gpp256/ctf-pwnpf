@@ -35,6 +35,8 @@ Links
 
 License
 ----------
+Copyright &copy; 2019 gpp256
+Distributed under the [MIT License][mit].  
 
-You are bound to the license agreement included in respective files.
+[MIT]: https://github.com/gpp256/ctf-pwnpf/blob/master/LICENSE
 
