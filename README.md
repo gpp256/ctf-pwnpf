@@ -17,7 +17,7 @@ To start, run the following commands.
     CTF_DATA_DIR=/opt/docker/pwnpf-data
     
     $ sh docker.sh
-    Usage: docker.sh {build|run|clean|status|update}
+    Usage: docker.sh {build|run|clean|status|update|create_image|test_image}
     $ sh docker.sh build
     $ sh docker.sh run # docker run -v ${CTF_DATA_DIR}:/opt/ctf/data ...(snip)
     $ sh docker.sh status

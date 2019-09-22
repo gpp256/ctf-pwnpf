@@ -83,7 +83,7 @@ case "$1" in
   update) update ;;
   create_image) create_image ;;
   test_image) test_image ;;
-  *) echo "Usage: $0 {build|run|clean|status|update}"; exit 1
+  *) echo "Usage: $0 {build|run|clean|status|update|create_image|test_image}"; exit 1
 esac
 exit 0
 #__END__
