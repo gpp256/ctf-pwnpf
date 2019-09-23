@@ -1,7 +1,7 @@
 ctf-pwnpf
 ============
 
-ctf-pwnpf is an analysis platform for learning Pwn/Reversing.
+ctf-pwnpf is an analysis platform for learning about Pwn/Reversing.
 
 Quick Start
 ------------
